@@ -8,13 +8,13 @@ The PyTorch implements of **AutoEncoder Driven Multimodal Collaborative Learning
 
 Our method can synthesis clear and nature images and outperforms other state-of-the-art methods on many datasets.
 
-Experiment results on **BraTS2020** dataset.
+Experimental results on **BraTS2020** dataset.
 <img src="images/comparison_brats.jpg"/>
 
-Experiment results on **ISLES2015** dataset.
+Experimental results on **ISLES2015** dataset.
 <img src="images/comparison_isles.jpg"/>
 
-Experiment results on **CBMFM** dataset.
+Experimental results on **CBMFM** dataset.
 <img src="images/comparison_cbmfm.jpg"/>
 
 ## Environment
