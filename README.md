@@ -1,6 +1,6 @@
 # AutoEncoder Driven Multimodal Collaborative Learning for Medical Image Synthesis
 
-The PyTorch implements of **AutoEncoder Driven Multimodal Collaborative Learning for Medical Image Synthesis**.
+The PyTorch implements of [**AutoEncoder Driven Multimodal Collaborative Learning for Medical Image Synthesis**](https://link.springer.com/article/10.1007/s11263-023-01791-0) (IJCV 2023).
 
 **The overview of our AE-GAN framework.**
 <img src="images/framework.jpg"/>
@@ -83,6 +83,9 @@ SISS2015_Training
 │   ├── ...
 ```
 
+## Checkpoints
+Our pre-trained models are available at: [Google Drive](https://drive.google.com/file/d/1QzMaNm2ATremu3qMP4BlvTlRIa5Ux8_i/view?usp=drive_link) | [OneDrive](https://1drv.ms/u/s!AsJlLKv0WJvdlVLFgx0ab7Ceq1Cf?e=YjiJAN) | [Baidu Drive](https://pan.baidu.com/s/1qnop6M5_B_l8NEVI9DdsnQ?pwd=plc0).
+
 ## Train
 Edit the .yaml file of the corresponding dataset for training configuration and run the following command to train.
 ```
@@ -93,4 +96,16 @@ python train.py options/brats.yaml
 Edit the .yaml file of the corresponding dataset for testing configuration and run the following command to test.
 ```
 python test.py options/brats.yaml
+```
+## Citation
+If you find this code useful in your research, please consider citing:
+```
+@article{cao2023autoencoder,
+  title={AutoEncoder-Driven Multimodal Collaborative Learning for Medical Image Synthesis},
+  author={Cao, Bing and Bi, Zhiwei and Hu, Qinghua and Zhang, Han and Wang, Nannan and Gao, Xinbo and Shen, Dinggang},
+  journal={International Journal of Computer Vision},
+  pages={1--20},
+  year={2023},
+  publisher={Springer}
+}
 ```
